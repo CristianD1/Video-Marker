@@ -3,17 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="components/menu-nav/menu-nav.html">
+    <link rel="import" href="components/video-kit/video-kit.html">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <div class="app-container">
+      <div class="menu-nav">
+        <menu-nav> </menu-nav>
+      </div>
+      <div class="video-body">
+        <video-kit> </video-kit>
+      </div>
+    </div>
   </body>
 
   <script>
-    // You can also require other files to run in this process
     require('./renderer.js')
   </script>
 </html>

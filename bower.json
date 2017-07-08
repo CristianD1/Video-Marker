@@ -1,0 +1,21 @@
+{
+  "name": "video-marker",
+  "description": "Easy marking and bookmarking of videos",
+  "main": "index.js",
+  "authors": [
+    "Cristian David"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/CristianD1/video-marker",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^2.0.1"
+  }
+}
