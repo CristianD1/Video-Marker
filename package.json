@@ -1,0 +1,14 @@
+{
+  "name": "video-marker",
+  "version": "1.0.0",
+  "description": "Easy marking and bookmarking of videos",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Cristian David",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
